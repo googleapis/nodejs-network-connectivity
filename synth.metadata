@@ -3,8 +3,8 @@
     {
       "git": {
         "name": ".",
-        "remote": "sso://user/sofialeon/nodejs-network-connectivity",
-        "sha": "60f0e6000acf3ac1e73dee43baf46805bdd87801"
+        "remote": "https://github.com/googleapis/nodejs-network-connectivity.git",
+        "sha": "c1d7ea0d5ae0b2f816c340d46b508a6eb33e7d83"
       }
     },
     {
