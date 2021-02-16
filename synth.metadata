@@ -27,7 +27,7 @@
     {
       "client": {
         "source": "googleapis",
-        "apiName": "networkconnectivity",
+        "apiName": "network-connectivity",
         "apiVersion": "v1alpha1",
         "language": "nodejs",
         "generator": "bazel"
