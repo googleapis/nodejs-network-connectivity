@@ -16,12 +16,13 @@
 // ** https://github.com/googleapis/synthtool **
 // ** All changes to this file may be overwritten. **
 
+import * as v1 from './v1';
 import * as v1alpha1 from './v1alpha1';
 
 const HubServiceClient = v1alpha1.HubServiceClient;
 type HubServiceClient = v1alpha1.HubServiceClient;
 
-export {v1alpha1, HubServiceClient};
-export default {v1alpha1, HubServiceClient};
+export {v1, v1alpha1, HubServiceClient};
+export default {v1, v1alpha1, HubServiceClient};
 import * as protos from '../protos/protos';
 export {protos};
