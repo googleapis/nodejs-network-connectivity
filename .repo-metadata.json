@@ -11,6 +11,6 @@
   "requires_billing": true,
   "name": "network-connectivity",
   "issue_tracker": "https://github.com/googleapis/nodejs-network-connectivity/issues",
-  "api_shortname": "network-connectivity",
+  "api_shortname": "networkconnectivity",
   "library_type": "GAPIC_AUTO"
 }
