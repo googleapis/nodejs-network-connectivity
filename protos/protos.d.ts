@@ -316,70 +316,70 @@ export namespace google {
                 namespace HubService {
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|listHubs}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#listHubs}.
                      * @param error Error, if any
                      * @param [response] ListHubsResponse
                      */
                     type ListHubsCallback = (error: (Error|null), response?: google.cloud.networkconnectivity.v1.ListHubsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|getHub}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#getHub}.
                      * @param error Error, if any
                      * @param [response] Hub
                      */
                     type GetHubCallback = (error: (Error|null), response?: google.cloud.networkconnectivity.v1.Hub) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|createHub}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#createHub}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateHubCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|updateHub}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#updateHub}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateHubCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|deleteHub}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#deleteHub}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteHubCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|listSpokes}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#listSpokes}.
                      * @param error Error, if any
                      * @param [response] ListSpokesResponse
                      */
                     type ListSpokesCallback = (error: (Error|null), response?: google.cloud.networkconnectivity.v1.ListSpokesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|getSpoke}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#getSpoke}.
                      * @param error Error, if any
                      * @param [response] Spoke
                      */
                     type GetSpokeCallback = (error: (Error|null), response?: google.cloud.networkconnectivity.v1.Spoke) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|createSpoke}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#createSpoke}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateSpokeCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|updateSpoke}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#updateSpoke}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateSpokeCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService|deleteSpoke}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1.HubService#deleteSpoke}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -2771,70 +2771,70 @@ export namespace google {
                 namespace HubService {
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|listHubs}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#listHubs}.
                      * @param error Error, if any
                      * @param [response] ListHubsResponse
                      */
                     type ListHubsCallback = (error: (Error|null), response?: google.cloud.networkconnectivity.v1alpha1.ListHubsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|getHub}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#getHub}.
                      * @param error Error, if any
                      * @param [response] Hub
                      */
                     type GetHubCallback = (error: (Error|null), response?: google.cloud.networkconnectivity.v1alpha1.Hub) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|createHub}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#createHub}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateHubCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|updateHub}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#updateHub}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateHubCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|deleteHub}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#deleteHub}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteHubCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|listSpokes}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#listSpokes}.
                      * @param error Error, if any
                      * @param [response] ListSpokesResponse
                      */
                     type ListSpokesCallback = (error: (Error|null), response?: google.cloud.networkconnectivity.v1alpha1.ListSpokesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|getSpoke}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#getSpoke}.
                      * @param error Error, if any
                      * @param [response] Spoke
                      */
                     type GetSpokeCallback = (error: (Error|null), response?: google.cloud.networkconnectivity.v1alpha1.Spoke) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|createSpoke}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#createSpoke}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateSpokeCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|updateSpoke}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#updateSpoke}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateSpokeCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService|deleteSpoke}.
+                     * Callback as used by {@link google.cloud.networkconnectivity.v1alpha1.HubService#deleteSpoke}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -6907,9 +6907,6 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
-            /** FieldOptions unverifiedLazy */
-            unverifiedLazy?: (boolean|null);
-
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -6946,9 +6943,6 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
-
-            /** FieldOptions unverifiedLazy. */
-            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -8751,35 +8745,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|listOperations}.
+             * Callback as used by {@link google.longrunning.Operations#listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|getOperation}.
+             * Callback as used by {@link google.longrunning.Operations#getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
