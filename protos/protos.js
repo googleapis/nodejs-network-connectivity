@@ -7859,6 +7859,12 @@
                                 if (object.destRange != null)
                                     message.destRange = String(object.destRange);
                                 switch (object.protocolVersion) {
+                                default:
+                                    if (typeof object.protocolVersion === "number") {
+                                        message.protocolVersion = object.protocolVersion;
+                                        break;
+                                    }
+                                    break;
                                 case "PROTOCOL_VERSION_UNSPECIFIED":
                                 case 0:
                                     message.protocolVersion = 0;
@@ -7897,7 +7903,7 @@
                                 if (message.destRange != null && message.hasOwnProperty("destRange"))
                                     object.destRange = message.destRange;
                                 if (message.protocolVersion != null && message.hasOwnProperty("protocolVersion"))
-                                    object.protocolVersion = options.enums === String ? $root.google.cloud.networkconnectivity.v1.PolicyBasedRoute.Filter.ProtocolVersion[message.protocolVersion] : message.protocolVersion;
+                                    object.protocolVersion = options.enums === String ? $root.google.cloud.networkconnectivity.v1.PolicyBasedRoute.Filter.ProtocolVersion[message.protocolVersion] === undefined ? message.protocolVersion : $root.google.cloud.networkconnectivity.v1.PolicyBasedRoute.Filter.ProtocolVersion[message.protocolVersion] : message.protocolVersion;
                                 return object;
                             };
     
@@ -8162,6 +8168,12 @@
                                     return object;
                                 var message = new $root.google.cloud.networkconnectivity.v1.PolicyBasedRoute.Warnings();
                                 switch (object.code) {
+                                default:
+                                    if (typeof object.code === "number") {
+                                        message.code = object.code;
+                                        break;
+                                    }
+                                    break;
                                 case "WARNING_UNSPECIFIED":
                                 case 0:
                                     message.code = 0;
@@ -8207,7 +8219,7 @@
                                     object.warningMessage = "";
                                 }
                                 if (message.code != null && message.hasOwnProperty("code"))
-                                    object.code = options.enums === String ? $root.google.cloud.networkconnectivity.v1.PolicyBasedRoute.Warnings.Code[message.code] : message.code;
+                                    object.code = options.enums === String ? $root.google.cloud.networkconnectivity.v1.PolicyBasedRoute.Warnings.Code[message.code] === undefined ? message.code : $root.google.cloud.networkconnectivity.v1.PolicyBasedRoute.Warnings.Code[message.code] : message.code;
                                 var keys2;
                                 if (message.data && (keys2 = Object.keys(message.data)).length) {
                                     object.data = {};
@@ -15029,6 +15041,12 @@
                     if (object.nameField != null)
                         message.nameField = String(object.nameField);
                     switch (object.history) {
+                    default:
+                        if (typeof object.history === "number") {
+                            message.history = object.history;
+                            break;
+                        }
+                        break;
                     case "HISTORY_UNSPECIFIED":
                     case 0:
                         message.history = 0;
@@ -15053,6 +15071,10 @@
                         for (var i = 0; i < object.style.length; ++i)
                             switch (object.style[i]) {
                             default:
+                                if (typeof object.style[i] === "number") {
+                                    message.style[i] = object.style[i];
+                                    break;
+                                }
                             case "STYLE_UNSPECIFIED":
                             case 0:
                                 message.style[i] = 0;
@@ -15100,7 +15122,7 @@
                     if (message.nameField != null && message.hasOwnProperty("nameField"))
                         object.nameField = message.nameField;
                     if (message.history != null && message.hasOwnProperty("history"))
-                        object.history = options.enums === String ? $root.google.api.ResourceDescriptor.History[message.history] : message.history;
+                        object.history = options.enums === String ? $root.google.api.ResourceDescriptor.History[message.history] === undefined ? message.history : $root.google.api.ResourceDescriptor.History[message.history] : message.history;
                     if (message.plural != null && message.hasOwnProperty("plural"))
                         object.plural = message.plural;
                     if (message.singular != null && message.hasOwnProperty("singular"))
@@ -15108,7 +15130,7 @@
                     if (message.style && message.style.length) {
                         object.style = [];
                         for (var j = 0; j < message.style.length; ++j)
-                            object.style[j] = options.enums === String ? $root.google.api.ResourceDescriptor.Style[message.style[j]] : message.style[j];
+                            object.style[j] = options.enums === String ? $root.google.api.ResourceDescriptor.Style[message.style[j]] === undefined ? message.style[j] : $root.google.api.ResourceDescriptor.Style[message.style[j]] : message.style[j];
                     }
                     return object;
                 };
